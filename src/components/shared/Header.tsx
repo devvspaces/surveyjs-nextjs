@@ -52,22 +52,22 @@ export default function Header() {
           >
             {"Results Table"}
           </Link>
-          <Link
+          {/* <Link
             className="block py-2 px-3 text-white bg-blue-700 rounded md:bg-transparent md:text-blue-700 md:p-0 dark:text-white md:dark:text-blue-500"
             key={5}
             href={{pathname: "/datatables"}}
             prefetch={false}
           >
             {"Results Table (IE Support)"}
-          </Link>
-          <Link
+          </Link> */}
+          {/* <Link
             className="block py-2 px-3 text-white bg-blue-700 rounded md:bg-transparent md:text-blue-700 md:p-0 dark:text-white md:dark:text-blue-500"
             key={7}
             href={{pathname: "/pdf-export"}}
             prefetch={false}
           >
             {"PDF Generator"}
-          </Link>
+          </Link> */}
       </nav>
     </header>
   )
